@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+/* page wrapper settings */
+.wrapper {
+    height: 100vh;
+    width: 100vw;
+}
+
+/* main container settings */
+
+.container {
+    width: 75vw;
+    margin: 0 auto;
+}
+
+/* nav bar settings */
+nav {
+    background-color: black;
+    color: white;
+    min-height: 50px;
+    padding-left: 2em;
+    display: flex;
+    align-items: center;
+}
+
+/* title settings  */
+
+.title {
+    text-align: center;
+    min-height: 50px;
+}
+
+/* main content box settings */
+
+main {
+    display: flex;
+    gap: 2em;
+}
+
+/* Left column settings */
+aside {
+    flex: 1;
+    vertical-align: top;
+}
+
+.myProfile{
+    border: black 2px solid;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:flex-start;
+    padding: 1.2em 0 1.5em;
+    gap: 1.2em;
+    text-align: center;
+}
+
+.myProfile img {
+    height: 4.75em;
+    width: 4.75em;
+}
+
+
+/* Right column settings  */
+.profileFeed {
+    flex: 4;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 1em;
+}
+
+.person {
+    border: black 2px solid;
+    padding: 1.2em 1em;
+    width: 100%;
+}
+
+.userName {
+    display: flex;
+    gap: 1.5em;
+    padding-bottom: .5em;
+}
+
+.userName h3 {
+    flex: 2;
+}
+
+.userName button {
+    background-color: rgb(255, 203, 60);
+    width: 4em;
+    border: black solid 2px;
+    box-shadow: black 2px 2px 2px;
+}
